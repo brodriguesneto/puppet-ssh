@@ -1,0 +1,29 @@
+{
+  "author": "Boaventura Rodrigues Neto",
+  "checksums": {
+    "manifests/install.pp": "4fce94a8c6e3d98e3f96e1fec944ed7b",
+    "manifests/service.pp": "56f7cf5e0a94e5e5276876b141870cca",
+    "README": "ad4c82a869b3366ac4da0c7d6be00906",
+    "Modulefile": "10e5156fe5ae2792b32d13dd21e5804a",
+    "tests/init.pp": "6d41010030c6c2565e66002a28edaf29",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "LICENSE": "6c4db32a2fa8717faffa1d4f10136f47",
+    "manifests/params.pp": "fb376ced82d022661988d0aad052122e",
+    "manifests/init.pp": "47032f33e2f45c0e0c2589dbe3195a45",
+    "templates/sshd_config.erb": "1327e5274c066d9f535ec269e6d36542",
+    "Vagrantfile": "b5237a42ae09138cf3797fa2847743bb",
+    "vagrant_ubuntu_bootstrap.sh": "1903d343b00cabf5baf6ab13068de7df",
+    "templates/ssh_config.erb": "45960d068f237158eddd0598f3a3de65",
+    "manifests/config.pp": "c425ac967b07c2a6935e9623e3c4e578",
+    "README.md": "bfb617e0d124747de5a8247868d5a059"
+  },
+  "dependencies": [],
+  "description": "Module to install and manages OpenSSH via puppet",
+  "license": "Apache License, Version 2.0",
+  "name": "brodriguesneto-ssh",
+  "project_page": "https://github.com/brodriguesneto/puppet-ssh",
+  "source": "https://github.com/brodriguesneto/puppet-ssh",
+  "summary": "Module to install and manages OpenSSH via puppet",
+  "types": [],
+  "version": "0.1.0"
+}
