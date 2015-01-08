@@ -2,7 +2,7 @@ class ssh::params {
   case $::operatingsystem {
     'Ubuntu' : {
       case $::lsbdistrelease {
-        /(12.04|14.04)/ : {
+        /(12.04|14.04|14.10)/ : {
           $package        = 'ssh'
           $service        = 'ssh'
           $ssh_config     = '/etc/ssh/ssh_config'
