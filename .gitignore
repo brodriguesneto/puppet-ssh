@@ -14,4 +14,4 @@ bin/*.ap_
 .project
 */*.swp
 .vagrant/
-
+Vagrantfile
